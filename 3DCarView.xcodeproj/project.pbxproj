@@ -8,21 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1816E85F281475F800C431E7 /* _DCarViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816E85E281475F800C431E7 /* _DCarViewApp.swift */; };
-		1816E861281475F800C431E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816E860281475F800C431E7 /* ContentView.swift */; };
 		1816E863281475FA00C431E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816E862281475FA00C431E7 /* Assets.xcassets */; };
 		1816E866281475FA00C431E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816E865281475FA00C431E7 /* Preview Assets.xcassets */; };
 		1816E868281475FA00C431E7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816E867281475FA00C431E7 /* Persistence.swift */; };
 		1816E86B281475FA00C431E7 /* _DCarView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1816E869281475FA00C431E7 /* _DCarView.xcdatamodeld */; };
+		1816E8722814762D00C431E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816E8712814762D00C431E7 /* ContentView.swift */; };
+		1816E8742814763E00C431E7 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816E8732814763E00C431E7 /* CarView.swift */; };
+		1816E8762814764900C431E7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816E8752814764800C431E7 /* ModelData.swift */; };
+		1816E87A281476B300C431E7 /* Oldsmobile.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1816E877281476AD00C431E7 /* Oldsmobile.usdz */; };
+		1816E87B281476B300C431E7 /* Datsun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1816E878281476B200C431E7 /* Datsun.usdz */; };
+		1816E87C281476B300C431E7 /* Porsche.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1816E879281476B300C431E7 /* Porsche.usdz */; };
+		1887A17828149202001881CE /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887A17728149202001881CE /* DescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1816E85B281475F800C431E7 /* 3DCarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DCarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1816E85E281475F800C431E7 /* _DCarViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCarViewApp.swift; sourceTree = "<group>"; };
-		1816E860281475F800C431E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1816E862281475FA00C431E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1816E865281475FA00C431E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1816E867281475FA00C431E7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1816E86A281475FA00C431E7 /* _DCarView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _DCarView.xcdatamodel; sourceTree = "<group>"; };
+		1816E8712814762D00C431E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1816E8732814763E00C431E7 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		1816E8752814764800C431E7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1816E877281476AD00C431E7 /* Oldsmobile.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Oldsmobile.usdz; sourceTree = "<group>"; };
+		1816E878281476B200C431E7 /* Datsun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Datsun.usdz; sourceTree = "<group>"; };
+		1816E879281476B300C431E7 /* Porsche.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Porsche.usdz; sourceTree = "<group>"; };
+		1816E87E281482B000C431E7 /* -DCarView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-DCarView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1887A17728149202001881CE /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +68,17 @@
 		1816E85D281475F800C431E7 /* 3DCarView */ = {
 			isa = PBXGroup;
 			children = (
+				1816E87E281482B000C431E7 /* -DCarView-Info.plist */,
 				1816E85E281475F800C431E7 /* _DCarViewApp.swift */,
-				1816E860281475F800C431E7 /* ContentView.swift */,
 				1816E862281475FA00C431E7 /* Assets.xcassets */,
 				1816E867281475FA00C431E7 /* Persistence.swift */,
 				1816E869281475FA00C431E7 /* _DCarView.xcdatamodeld */,
 				1816E864281475FA00C431E7 /* Preview Content */,
+				1816E8712814762D00C431E7 /* ContentView.swift */,
+				1816E8732814763E00C431E7 /* CarView.swift */,
+				1887A17728149202001881CE /* DescriptionView.swift */,
+				1816E8752814764800C431E7 /* ModelData.swift */,
+				1816E87D281476DF00C431E7 /* Models */,
 			);
 			path = 3DCarView;
 			sourceTree = "<group>";
@@ -71,6 +89,16 @@
 				1816E865281475FA00C431E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1816E87D281476DF00C431E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1816E878281476B200C431E7 /* Datsun.usdz */,
+				1816E879281476B300C431E7 /* Porsche.usdz */,
+				1816E877281476AD00C431E7 /* Oldsmobile.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +128,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
@@ -132,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1816E866281475FA00C431E7 /* Preview Assets.xcassets in Resources */,
+				1816E87B281476B300C431E7 /* Datsun.usdz in Resources */,
+				1816E87A281476B300C431E7 /* Oldsmobile.usdz in Resources */,
 				1816E863281475FA00C431E7 /* Assets.xcassets in Resources */,
+				1816E87C281476B300C431E7 /* Porsche.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +178,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1816E868281475FA00C431E7 /* Persistence.swift in Sources */,
-				1816E861281475F800C431E7 /* ContentView.swift in Sources */,
+				1887A17828149202001881CE /* DescriptionView.swift in Sources */,
+				1816E8742814763E00C431E7 /* CarView.swift in Sources */,
 				1816E86B281475FA00C431E7 /* _DCarView.xcdatamodeld in Sources */,
+				1816E8722814762D00C431E7 /* ContentView.swift in Sources */,
 				1816E85F281475F800C431E7 /* _DCarViewApp.swift in Sources */,
+				1816E8762814764900C431E7 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +315,12 @@
 				DEVELOPMENT_TEAM = 7DD7KMRTH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-DCarView-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use AR this app needs acces to your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,9 +347,12 @@
 				DEVELOPMENT_TEAM = 7DD7KMRTH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-DCarView-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use AR this app needs acces to your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
